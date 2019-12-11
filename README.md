@@ -12,7 +12,5 @@ One notable feature of this interesting Alexa Skill was deploying the Newspaper 
 zip -r feed.zip . && aws lambda update-function-code --function-name media --region us-east-1 --zip-file file://C:\***\feed.zip
 ```
 
-NOTE: None of my Alexa Skills used the state design pattern which I have used in subsequent projects like https://www.github.com/mmulcahy222/google_bookmarks. I was learning here.
-
-
+NOTE: None of my Alexa Skills used the state design pattern which I have used in subsequent projects like https://www.github.com/mmulcahy222/google_bookmarks. I was learning here. Also, since I was not a certified Amazon Solutions Architect at the time, I unfortunately did do the wise thing and use DynamoDB to store the association of RSS link to the region of country. 
 
