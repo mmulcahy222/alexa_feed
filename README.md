@@ -8,7 +8,7 @@ If the Alexa "Speech Output" response exceeded the 8000 character limit, it offe
 
 One notable feature of this interesting Alexa Skill was deploying the Newspaper Python Module every time I pushed a code change
 
-```python
+```
 zip -r feed.zip . && aws lambda update-function-code --function-name media --region us-east-1 --zip-file file://C:\***\feed.zip
 ```
 
